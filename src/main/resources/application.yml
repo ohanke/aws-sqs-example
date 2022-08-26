@@ -1,0 +1,9 @@
+cloud:
+  aws:
+    static: eu-central-1
+    auto: false
+  credentials:
+    access-key: ${access-key}
+    secret-key: ${secret-key}
+  end-point:
+    uri: https://sqs.eu-central-1.amazonaws.com/691621966927/test-queue
